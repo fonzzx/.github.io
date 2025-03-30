@@ -35,7 +35,7 @@ body {
     width: 80px; /* Tamanho reduzido da foto */
     height: 80px; /* Tamanho reduzido da foto */
     border-radius: 50%; /* Torna a imagem redonda */
-    border: 5px solid white; /* Borda branca ao redor da foto */
+    border: 3px solid white; /* Borda branca ao redor da foto */
 }
 
 /* Estilo para os botões */
