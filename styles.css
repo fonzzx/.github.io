@@ -30,10 +30,10 @@ body {
     padding-top: 50px; /* Ajusta conforme necessário */
 }
 
-/* Foto de perfil - imagem redonda */
+/* Foto de perfil - imagem redonda pequena */
 .profile-pic img {
-    width: 150px;
-    height: 150px;
+    width: 80px; /* Tamanho reduzido da foto */
+    height: 80px; /* Tamanho reduzido da foto */
     border-radius: 50%; /* Torna a imagem redonda */
     border: 5px solid white; /* Borda branca ao redor da foto */
 }
@@ -48,10 +48,10 @@ body {
 }
 
 .btn {
-    background-color: black; /* Fundo preto */
+    background-color: #101010; /* Fundo preto opaco */
     border: 2px solid white; /* Borda branca para os botões */
     color: white; /* Cor do texto */
-    padding: 15px 30px;
+    padding: 12px 30px;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
