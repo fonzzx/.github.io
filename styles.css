@@ -1,36 +1,69 @@
+/* Definir o corpo da página */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: #101010; /* Cor de fundo caso a imagem não carregue */
+    background-color: #101010; /* Cor de fundo caso a imagem não seja carregada */
+    color: white; /* Cor de texto para garantir visibilidade */
 }
 
-/* Configurar o fundo com imagem e efeito de blur */
+/* Div para a imagem de fundo */
 .bg {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://freeimage.host/i/3AXbvQ1'); /* Substitui com a URL da imagem */
+    background-image: url('https://iili.io/3AXbvQ1.jpg'); /* Substitui pela URL da tua imagem */
     background-size: cover;
     background-position: center;
-    filter: blur(8px); /* Efeito de blur */
-    z-index: -1; /* Para ficar atrás de outros elementos */
+    filter: blur(8px); /* Efeito de desfoque */
+    z-index: -1; /* Colocar a imagem atrás do conteúdo */
 }
 
-/* Estilo para o conteúdo que fica por cima do fundo */
+/* Conteúdo principal */
 .container {
     position: relative;
     z-index: 1;
-    color: white;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 100px; /* Ajusta conforme necessário */
 }
 
-/* Exemplo de estilo para um título */
+/* Estilo para os botões */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os botões */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white; /* Borda branca para os botões */
+    color: white; /* Cor do texto */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: white; /* Cor do fundo ao passar o mouse */
+    color: #101010; /* Cor do texto ao passar o mouse */
+}
+
+/* Título */
 h1 {
     font-size: 3rem;
-    color: white;
+}
+
+/* Texto adicional */
+p {
+    font-size: 1.2rem;
 }
