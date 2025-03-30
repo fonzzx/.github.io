@@ -70,7 +70,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('imagem-de-fundo.jpg');  /* Substitua com o caminho da tua imagem */
+    background-image: url('https://freeimage.host/i/3AXbvQ1');  /* Substitua com o caminho da tua imagem */
     background-size: cover;
     background-position: center;
     filter: blur(8px);  /* Aplica o efeito de blur na imagem de fundo */
